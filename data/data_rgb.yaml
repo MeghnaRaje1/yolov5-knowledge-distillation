@@ -1,0 +1,8 @@
+train: data/train/thermal
+val: data/test/thermal
+test: data/test/thermal
+
+nc: 4
+names: ['exit point', 'fire extinguisher', 'emergency sign', 'clear pathway']
+
+
