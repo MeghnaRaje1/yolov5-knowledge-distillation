@@ -1,6 +1,6 @@
-train: data/train_rgb/rgb
-val: data/test_rgb/rgb
-test: data/test_rgb/rgb
+train: data/train/thermal
+val: data/test/thermal
+test: data/test/thermal
 
 nc: 4
 names: ['exit point', 'fire extinguisher', 'emergency sign', 'clear pathway']
