@@ -5,9 +5,14 @@ nc: 80  # number of classes
 depth_multiple: 0.33  # model depth multiple
 width_multiple: 0.50  # layer channel multiple
 anchors:
-  - [5,7,  8,15,  16,12]  # anchor box 1
-  - [15,30,  31,22,  29,60]  # anchor box 2
-  - [58,45,  78,99,  186,163]  # anchor box 3
+anchors:
+  - [2, 4,  4, 8,  8, 16]    # anchor box 1
+  - [6, 12,  12, 24,  24, 48]    # anchor box 2
+  - [14, 28,  28, 56,  56, 112]    # anchor box 3
+
+  # - [5,7,  8,15,  16,12]  # anchor box 1
+  # - [15,30,  31,22,  29,60]  # anchor box 2
+  # - [58,45,  78,99,  186,163]  # anchor box 3
   # - [10,13, 16,30, 33,23]  # P3/8
   # - [30,61, 62,45, 59,119]  # P4/16
   # - [116,90, 156,198, 373,326]  # P5/32
